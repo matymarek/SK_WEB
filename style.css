@@ -1,0 +1,159 @@
+body{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #1A651A;
+    background-color: white;
+}
+h1{
+    font-size: 25pt;
+}
+h2{
+    font-size: 20pt
+}
+p{
+    font-size: 15pt;
+}
+div.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 40px 0 40px;
+}
+div.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: fit-content;
+}
+div.contentContainer{
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    font-size: 15pt;
+}
+a.content{
+    color: #1A651A;
+    margin-top: 15pt;
+    display: block;
+}
+a.navbar{
+    color: inherit;
+    padding: 25px 10% 25px 10%;
+    display: block;
+}
+a.text{
+    color: #1A651A;
+    text-decoration: underline;
+}
+img.gallery{
+    height: 550px;
+    margin-bottom: 20px;
+}
+img.profile{
+    width: 35%;
+    min-width: 100px;
+}
+nav{
+    max-width: 100%;
+}
+ul.navbar{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    background-color: #1A651A;
+    max-width: inherit;
+}
+ul.navbar:first-child{
+    padding-left: 20px;
+}
+ul.navbar:last-child{
+    padding-right: 20px;
+}
+li{
+    display: inline-block;
+    color: white;
+    background-color: #1A651A;
+    margin: 0 0 0 0;
+    width: 20%;
+    min-width: 120px;
+}
+li:hover{
+    color: #1A651A;
+    background-color: white;
+}
+div.form{
+    display: flex;
+    justify-content: center;
+}
+form{
+    width: 80%;
+}
+label{
+    font-size: 15pt;
+}
+input{
+    margin: 10px 0 30px 0;
+    border-radius: 10px;
+    border: 1px solid #1A651A;
+}
+input.submit{
+    background-color: #1A651A;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 20px 15px 20px;
+    font-size: 12pt;
+}
+input.submit:hover{
+    cursor: pointer;
+}
+input.text{
+    width: 200px;
+}
+textarea{
+    margin: 10px 10px 20px 10px;
+    border-radius: 10px;
+    border: 1px solid #1A651A;
+    width: inherit;
+    max-width: 500px;
+    height: 250px;
+}
+div.personContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    max-width: 900px;
+    flex-wrap: wrap;
+}
+div.person{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 0 15px 0 15px;
+
+}
+div.table{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+table{
+    width: 70%;
+
+}
+td{
+    font-size: 15pt;
+    text-align: center;
+    width: 50%;
+}
+#faq{
+    padding-top: 20px;
+}
