@@ -17,4 +17,4 @@ echo'
 </html>
 ';
 
-//až budou texty tak to splácám
+//až budou texty a obrázky tak to splácám

@@ -20,4 +20,4 @@ echo '
 </html>
 ';
 
-//až budou obrázky tak to splácám
+//až budou obrázky tak to doplácám

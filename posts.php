@@ -18,3 +18,6 @@ echo'
         </body>
     </html>
 ';
+
+// stejně dynamicky jako v galerii by šly přidat obrázky k příspěvkům
+// -> obrázek do složky, např. 'postimgs', a do db příspěvků přidat 'post_img' a 'img_alt'
