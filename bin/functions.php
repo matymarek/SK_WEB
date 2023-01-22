@@ -210,7 +210,8 @@ function editWeb($state){
             $data['oldPass'] = htmlspecialchars(filter_input(INPUT_POST, 'oldPass'));
             $data['newPass'] = htmlspecialchars(filter_input(INPUT_POST, 'newPass'));
             $data['newPass2'] = htmlspecialchars(filter_input(INPUT_POST, 'newPass2'));
-            if($data['newPass'] == $data['newPass2']){
+            if($data['newPass'] == $data['newPass2'] &&
+                password_verify($data['oldPass'], getUserById($_SESSION['user_id']))){
                 if (updatePass($_SESSION['user_id'], $data['newPass'])) {
                     redirect(RESULT_SUCCESS);
                 }
@@ -294,6 +295,17 @@ function getForm() : int {
     }
 
     return STATE_FORM_REQUESTED;
+}
+
+function getUserById(int $user_id){
+    $pass = null;
+    $pdo = dbConnect();
+    $stmt = $pdo->query("SELECT `pass` FROM `users`
+        WHERE `user_id`='" . $user_id . "'");
+    foreach ($stmt as $row) {
+        $pass = ($row['pass'] == "pass") ? false : $row['pass'];
+    }
+    return $pass;
 }
 
 function updatePass($user_id, $input) {
