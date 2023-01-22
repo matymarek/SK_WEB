@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="905ac484-a103-4d22-a806-67862aae0384" name="Changes" comment="twl, hotovo xddd až mi něco pošlou tak to dodělám i z frontendu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/bin/functions.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +51,7 @@
       <workItem from="1664955681875" duration="858000" />
       <workItem from="1674332291859" duration="31520000" />
       <workItem from="1674364218083" duration="4000" />
+      <workItem from="1674411167675" duration="177000" />
     </task>
     <task id="LOCAL-00001" summary="twl, hotovo xddd až mi něco pošlou tak to dodělám i z frontendu">
       <created>1674363821652</created>

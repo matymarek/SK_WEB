@@ -236,7 +236,7 @@ function editWeb($state){
                                 <form method='post' id='newPost'>
                                     <label for='title'>Nadpis:  </label><br>
                                     <input type='text' name='title' id='title' required><br>
-                                    <label for='content'>Heslo:  </label><br>
+                                    <label for='content'>Text:  </label><br>
                                     <textarea form='newPost' name='content' id='content'></textarea><br>
                                     <input type='hidden' name='action' value='newPost'>
                                     <input type='submit' value='Přidat' class='submit'>
@@ -261,7 +261,7 @@ function editWeb($state){
                             </div>
                         </div>
                         <div class='admin'>
-                            <h2>Nová fotogragie</h2>
+                            <h2>Nová fotografie</h2>
                             <div class='form'>
                                 <form method='post' enctype='multipart/form-data'>
                                     <label for='img'>Vyberte nebo přetáhněte fotografii zde:</label><br>
