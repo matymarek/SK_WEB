@@ -1,6 +1,5 @@
 <?php
-require 'functions.php';
-require 'dbconnect.php';
+require 'bin/functions.php';
 head();
 echo '<title>Vítejte</title>';
 navbar();
@@ -17,3 +16,5 @@ echo'
 </body>
 </html>
 ';
+
+//až budou texty tak to splácám

@@ -13,6 +13,11 @@ h2{
 p{
     font-size: 15pt;
 }
+p.alert{
+    font-size: 30pt;
+    color: red;
+    font-weight: bold;
+}
 div.gallery{
     display: flex;
     flex-wrap: wrap;
@@ -53,12 +58,9 @@ img.gallery{
     height: 550px;
     margin-bottom: 20px;
 }
-img.profile{
-    width: 35%;
-    min-width: 100px;
-}
 nav{
     max-width: 100%;
+    position: sticky;
 }
 ul.navbar{
     list-style-type: none;
@@ -124,36 +126,14 @@ textarea{
     max-width: 500px;
     height: 250px;
 }
-div.personContainer{
+div.post{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 70%;
-    max-width: 900px;
-    flex-wrap: wrap;
-}
-div.person{
-    display: flex;
+    align-items: center;
     flex-direction: column;
-    width: 45%;
-    margin: 0 15px 0 15px;
-
-}
-div.table{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 20px;
-}
-table{
-    width: 70%;
-
-}
-td{
-    font-size: 15pt;
-    text-align: center;
-    width: 50%;
-}
-#faq{
-    padding-top: 20px;
+    justify-content: space-between;
+    max-width: fit-content;
+    border: 2px solid #1A651A;
+    border-radius: 10px;
+    padding: 0 20px 10px 20px ;
+    margin: 10px 0 20px 0;
 }
