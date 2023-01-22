@@ -60,7 +60,6 @@ img.gallery{
 }
 nav{
     max-width: 100%;
-    position: sticky;
 }
 ul.navbar{
     list-style-type: none;
@@ -92,9 +91,10 @@ li:hover{
 div.form{
     display: flex;
     justify-content: center;
+    width: inherit;
 }
 form{
-    width: 80%;
+    width: inherit;
 }
 label{
     font-size: 15pt;
@@ -103,6 +103,7 @@ input{
     margin: 10px 0 30px 0;
     border-radius: 10px;
     border: 1px solid #1A651A;
+    font-size: 13pt;
 }
 input.submit{
     background-color: #1A651A;
@@ -119,12 +120,12 @@ input.text{
     width: 200px;
 }
 textarea{
-    margin: 10px 10px 20px 10px;
+    margin: 10px 0 20px 0;
     border-radius: 10px;
     border: 1px solid #1A651A;
     width: inherit;
     max-width: 500px;
-    height: 250px;
+    height: 400px;
 }
 div.post{
     display: flex;
@@ -136,4 +137,29 @@ div.post{
     border-radius: 10px;
     padding: 0 20px 10px 20px ;
     margin: 10px 0 20px 0;
+}
+div.admin{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: fit-content;
+    width: 40em;
+    border: 2px solid #1A651A;
+    border-radius: 10px;
+}
+#chngPassContainer{
+    margin-bottom: 20px;
+}
+#title{
+    width: 25em;
+}
+#img{
+    margin-top: 20px;
+}
+#leftContent{
+    margin-right: 100px;
+}
+#rightContent{
+    margin-left: 100px;
 }

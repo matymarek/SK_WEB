@@ -11,14 +11,6 @@ echo'
 $posts = getPosts();
 for ($i = 0; $i < count($posts); $i++){
     post($posts[$i]);
-    post($posts[$i]);
-    post($posts[$i]);
-    post($posts[$i]);
-    post($posts[$i]);
-    post($posts[$i]);
-    post($posts[$i]);
-
-    //čistě pro prezentaci, pak bude stačit jedno volání :D
 }
 echo'
                 </div>
