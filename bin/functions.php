@@ -1,6 +1,6 @@
 <?php
 
-//      ------ obecné funkce -------------------------
+//      ------ obecné funkce ---------------------------
 
 function console_log($output, $with_script_tags = true) {
     $js_code = 'console.log(' . json_encode($output, JSON_HEX_TAG) .
@@ -11,7 +11,7 @@ function console_log($output, $with_script_tags = true) {
     echo $js_code;
 }
 
-//      ------ html funkce ---------------------------
+//      ------ html funkce -----------------------------
 
 function head(){
     echo('
@@ -41,7 +41,7 @@ function navbar(){
     ';
 }
 
-//      ------- login funkce -------------------------
+//      ------- login funkce ---------------------------
 
 function login($state){
     while (true) {
@@ -130,7 +130,7 @@ function redirect(int $result) : void {
     exit;
 }
 
-//      ------ post funkce ----------------------------
+//      ------ post funkce -----------------------------
 
 function getPosts(){
     $posts = [];

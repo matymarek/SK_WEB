@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="905ac484-a103-4d22-a806-67862aae0384" name="Changes" comment="už jen komenty co je potřeba dodělat na frontendu až mi něco pošlou + jak udělat fotku k příspěvku">
+    <list default="true" id="905ac484-a103-4d22-a806-67862aae0384" name="Changes" comment="pass check nevalil, už oka">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/bin/functions.php" afterDir="false" />
     </list>
@@ -52,7 +52,8 @@
       <workItem from="1674332291859" duration="31520000" />
       <workItem from="1674364218083" duration="4000" />
       <workItem from="1674411167675" duration="505000" />
-      <workItem from="1674411773131" duration="410000" />
+      <workItem from="1674411773131" duration="503000" />
+      <workItem from="1676990266500" duration="489000" />
     </task>
     <task id="LOCAL-00001" summary="twl, hotovo xddd až mi něco pošlou tak to dodělám i z frontendu">
       <created>1674363821652</created>
@@ -68,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674411607035</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="pass check nevalil, už oka">
+      <created>1674412249135</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674412249135</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +96,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="twl, hotovo xddd až mi něco pošlou tak to dodělám i z frontendu" />
     <MESSAGE value="už jen komenty co je potřeba dodělat na frontendu až mi něco pošlou + jak udělat fotku k příspěvku" />
-    <option name="LAST_COMMIT_MESSAGE" value="už jen komenty co je potřeba dodělat na frontendu až mi něco pošlou + jak udělat fotku k příspěvku" />
+    <MESSAGE value="pass check nevalil, už oka" />
+    <option name="LAST_COMMIT_MESSAGE" value="pass check nevalil, už oka" />
   </component>
 </project>
