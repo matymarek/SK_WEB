@@ -1,8 +1,9 @@
 <?php
-require 'bin/functions.php';
+require 'bin/autoload.php';
 require_once 'bin/dbconnect.php';
-head();
-navbar();
+$f = new Functions();
+$f->head("Přihlásit");
+$f->navbar();
 
 const STATE_FORM_REQUESTED = 1;
 const STATE_FORM_SENT = 2;
@@ -15,11 +16,7 @@ const STATE_FORM_CHNGPASS_SENT = 9;
 
 session_start();
 $ui = isset($_SESSION['ui']);
-login(getState(isset($_SESSION['logged'])));
+$f->login($f->getState(isset($_SESSION['logged'])));
 if($ui){
-   editWeb(getForm());
+    $f->editWeb($f->getForm());
 }
-echo '
-</body>
-</html>
-';

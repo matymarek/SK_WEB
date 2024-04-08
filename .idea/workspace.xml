@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="905ac484-a103-4d22-a806-67862aae0384" name="Changes" comment="pass check nevalil, už oka">
+      <change afterPath="$PROJECT_DIR$/bin/MustacheRunner.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/about.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/editWeb.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/errorBox.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/gallery.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/head.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/navbar.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts.mustache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/bin/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/www.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/www.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Functions.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/posts.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,22 +37,34 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FhsVwDOsSMQqX2ugdqbK2Q7VKd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Notification.DisplayName-DoNotAsk-PHP-CGI Server&quot;: &quot;PHP-CGI Server&quot;,
     &quot;Notification.DoNotAsk-PHP-CGI Server&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/.CODES/wamp64/www&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/.CODES/wamp64/www/bin&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\.CODES\wamp64\www\bin" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\.CODES\wamp64\www\bin" />
     </key>
@@ -54,6 +83,11 @@
       <workItem from="1674411167675" duration="505000" />
       <workItem from="1674411773131" duration="503000" />
       <workItem from="1676990266500" duration="489000" />
+      <workItem from="1698859016111" duration="101000" />
+      <workItem from="1698859216091" duration="11000" />
+      <workItem from="1709210743421" duration="673000" />
+      <workItem from="1712568344568" duration="6745000" />
+      <workItem from="1712575911106" duration="4643000" />
     </task>
     <task id="LOCAL-00001" summary="twl, hotovo xddd až mi něco pošlou tak to dodělám i z frontendu">
       <created>1674363821652</created>
@@ -94,6 +128,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="twl, hotovo xddd až mi něco pošlou tak to dodělám i z frontendu" />
     <MESSAGE value="už jen komenty co je potřeba dodělat na frontendu až mi něco pošlou + jak udělat fotku k příspěvku" />
     <MESSAGE value="pass check nevalil, už oka" />

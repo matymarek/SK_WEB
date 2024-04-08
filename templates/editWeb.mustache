@@ -1,0 +1,50 @@
+<body>
+    <h1>Úprava webu</h1>
+    <div class='contentContainer'>
+        <div class='content' id='leftContent'>
+            <div class='admin'>
+                <h2>Nový příspěvek</h2>
+                <div class='form'>
+                    <form method='post' id='newPost'>
+                        <label for='title'>Nadpis:  </label><br>
+                        <input type='text' name='title' id='title' required><br>
+                        <label for='content'>Text:  </label><br>
+                        <textarea form='newPost' name='content' id='content'></textarea><br>
+                        <input type='hidden' name='action' value='newPost'>
+                        <input type='submit' value='Přidat' class='submit'>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class='content' id='rightContent'>
+            <div class='admin' id='chngPassContainer'>
+                <h2>Změna hesla</h2>
+                <div class='form'>
+                    <form method='post'>
+                        <label for='oldPass'>Stávající heslo:  </label>
+                        <input type='password' name='oldPass' id='oldPass' required><br>
+                        <label for='newPass'>Nové heslo:  </label>
+                        <input type='password' name='newPass' id='newPass' required><br>
+                        <label for='newPass2'>Nové heslo znovu:  </label>
+                        <input type='password' name='newPass2' id='newPass2' required><br>
+                        <input type='hidden' name='action' value='chngPass'>
+                        <input type='submit' value='Změnit heslo' class='submit'>
+                    </form>
+                </div>
+            </div>
+            <div class='admin'>
+                <h2>Nová fotografie</h2>
+                <div class='form'>
+                    <form method='post' enctype='multipart/form-data'>
+                        <label for='img'>Vyberte nebo přetáhněte fotografii zde:</label><br>
+                        <input type='file' name='img' id='img' accept='image/*' required><br>
+                        <label for='alt'>Přidejte krátký popis fotografie:</label><br>
+                        <input type='text' name='alt' id='alt' required><br>
+                        <input type='hidden' name='action' value='upload'>
+                        <input type='submit' value='Nahrát' class='submit'>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

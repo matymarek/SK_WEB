@@ -1,23 +1,11 @@
 <?php
-require 'bin/functions.php';
+require 'bin/autoload.php';
 require_once 'bin/dbconnect.php';
+$f = new Functions();
+$f->head("Galerie");
+$f->navbar();
 
-head();
-echo '<title>Galerie</title>';
-navbar();
-echo'
-<h1>Fotogalerie</h1>
-<div class="gallery">';
+$f->photos();
 
-$photos = getPhotos();
-for ($i = 0; $i < count($photos); $i++){
-    photo($photos[$i]);
-}
-
-echo '
-</div>
-</body>
-</html>
-';
 
 //až budou obrázky tak to doplácám

@@ -1,16 +1,8 @@
 <?php
-require 'bin/functions.php';
-head();
-echo'<title>O nás</title>';
-navbar();
-echo'
-<body>
-<h1>SK Třebechovice pod Orebem, oddíl kanoistiky</h1>
-<div class="contentContainer">
-    
-</div>
-</body>
-</html>
-';
+require 'bin/autoload.php';
+$f = new Functions();
+$f->head("O nás");
+$f->navbar();
+$f->body("about");
 
 //až budou texty tak to splácám
