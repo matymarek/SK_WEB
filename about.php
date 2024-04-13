@@ -1,8 +1,21 @@
 <?php
 require 'bin/autoload.php';
-$f = new Functions();
-$f->head("O nás");
-$f->navbar();
-$f->body("about");
 
-//až budou texty tak to splácám
+final class AboutPage extends BasePage{
+
+    protected Functions $f;
+
+    protected function setUp(): void
+    {
+        parent::setUp();
+        $this->title = "O nás";
+        $this->f = new Functions(null);
+    }
+
+    protected function body(): string
+    {
+        return $this->m->render("about");
+    }
+}
+$page = new AboutPage();
+$page->render();

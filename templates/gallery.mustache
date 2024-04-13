@@ -1,8 +1,10 @@
 <body>
     <h1>Fotogalerie</h1>
-    <div class="gallery">';
-        {{# photos}}
-            <img class="gallery" src="img/{{img_name}}" alt="{{alt}}" title="{{alt}}">
-        {{/photos}}
+    <div class="contentContainer">
+        <div class="content">
+            {{# photos}}
+                <img class="gallery" src="img/{{img_name}}" alt="{{alt}}" title="{{alt}}">
+            {{/photos}}
+        </div>
     </div>
 </body>

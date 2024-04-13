@@ -1,11 +1,21 @@
 <?php
 require 'bin/autoload.php';
-require_once 'bin/dbconnect.php';
-$f = new Functions();
-$f->head("Galerie");
-$f->navbar();
 
-$f->photos();
+final class GalleryPage extends BaseDBPage{
 
+    protected Functions $f;
 
-//až budou obrázky tak to doplácám
+    protected function setUp(): void
+    {
+        parent::setUp();
+        $this->title = "Galerie";
+        $this->f = new Functions($this->pdo);
+    }
+
+    protected function body(): string
+    {
+        return $this->f->photos();
+    }
+}
+$page = new GalleryPage();
+$page->render();

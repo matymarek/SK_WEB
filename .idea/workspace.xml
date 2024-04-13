@@ -1,33 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="905ac484-a103-4d22-a806-67862aae0384" name="Changes" comment="pass check nevalil, už oka">
-      <change afterPath="$PROJECT_DIR$/bin/MustacheRunner.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/about.mustache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/editWeb.mustache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/errorBox.mustache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/gallery.mustache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/head.mustache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.mustache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/login.mustache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/navbar.mustache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts.mustache" afterDir="false" />
+    <list default="true" id="905ac484-a103-4d22-a806-67862aae0384" name="Changes" comment="rebuild - mustache&#10;autoload nefunguje">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/BaseDBPage.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/BasePage.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Config.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/DB.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/ErrorPage.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/LocalConfig.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/SessionStorage.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/example.LocalConfig.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/278816255_1596898900665533_6943992846064985525_n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/278885485_1596898803998876_4862730857743477219_n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/278904439_1596899370665486_8659626751212633772_n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/foot.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/www.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/www.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Functions.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Functions.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Functions.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/MustacheRunner.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/bin/MustacheRunner.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dbconnect.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/bin/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/posts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/gallery.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gallery.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/head.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/templates/head.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/navbar.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navbar.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts.mustache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="DONT_SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
@@ -35,6 +49,17 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="PHPCodeSnifferBlackList">
+    <option name="filePaths">
+      <option value="$PROJECT_DIR$/bin/LocalConfig.class.php" />
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/mustache/mustache" />
+    </include_path>
   </component>
   <component name="ProjectId" id="2FhsVwDOsSMQqX2ugdqbK2Q7VKd" />
   <component name="ProjectLevelVcsManager">
@@ -44,25 +69,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Notification.DisplayName-DoNotAsk-PHP-CGI Server&quot;: &quot;PHP-CGI Server&quot;,
-    &quot;Notification.DoNotAsk-PHP-CGI Server&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/.CODES/wamp64/www/bin&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Notification.DisplayName-DoNotAsk-PHP-CGI Server": "PHP-CGI Server",
+    "Notification.DoNotAsk-PHP-CGI Server": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/.CODES/wamp64/www/img",
+    "php.override.implement.member.chooser.php.doc": "NONE",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\.CODES\wamp64\www\img" />
       <recent name="D:\.CODES\wamp64\www\bin" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -87,7 +115,13 @@
       <workItem from="1698859216091" duration="11000" />
       <workItem from="1709210743421" duration="673000" />
       <workItem from="1712568344568" duration="6745000" />
-      <workItem from="1712575911106" duration="4643000" />
+      <workItem from="1712575911106" duration="5601000" />
+      <workItem from="1712586132707" duration="603000" />
+      <workItem from="1712588429723" duration="78000" />
+      <workItem from="1712589199644" duration="1730000" />
+      <workItem from="1712599412733" duration="1930000" />
+      <workItem from="1712601367786" duration="8442000" />
+      <workItem from="1712997436870" duration="5462000" />
     </task>
     <task id="LOCAL-00001" summary="twl, hotovo xddd až mi něco pošlou tak to dodělám i z frontendu">
       <created>1674363821652</created>
@@ -110,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674412249135</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="rebuild - mustache&#10;autoload nefunguje">
+      <created>1712580914690</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712580914690</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +173,7 @@
     <MESSAGE value="twl, hotovo xddd až mi něco pošlou tak to dodělám i z frontendu" />
     <MESSAGE value="už jen komenty co je potřeba dodělat na frontendu až mi něco pošlou + jak udělat fotku k příspěvku" />
     <MESSAGE value="pass check nevalil, už oka" />
-    <option name="LAST_COMMIT_MESSAGE" value="pass check nevalil, už oka" />
+    <MESSAGE value="rebuild - mustache&#10;autoload nefunguje" />
+    <option name="LAST_COMMIT_MESSAGE" value="rebuild - mustache&#10;autoload nefunguje" />
   </component>
 </project>

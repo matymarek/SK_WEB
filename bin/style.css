@@ -20,9 +20,9 @@ p.alert{
 }
 div.gallery{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     padding: 40px 40px 0 40px;
 }
 div.content{
@@ -162,4 +162,18 @@ div.admin{
 }
 #rightContent{
     margin-left: 100px;
+}
+footer{
+    color: white;
+    background-color: #1A651A;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 99%;
+    position: fixed;
+    bottom: 10px;
+    left: 0.5%;
+}
+p.footer{
+    padding: 0 10px 0 10px;
 }
