@@ -14,7 +14,7 @@ final class AboutPage extends BasePage{
 
     protected function body(): string
     {
-        return $this->m->render("about");
+        return $this->m->render("about", ["apiKey"=>LocalConfig::API_KEY]);
     }
 }
 $page = new AboutPage();

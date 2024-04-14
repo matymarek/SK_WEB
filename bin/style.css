@@ -164,16 +164,21 @@ div.admin{
     margin-left: 100px;
 }
 footer{
+    margin-top: 50px;
     color: white;
     background-color: #1A651A;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 99%;
-    position: fixed;
+    position: relative;
     bottom: 10px;
     left: 0.5%;
 }
 p.footer{
     padding: 0 10px 0 10px;
+}
+#map{
+    height: 550px;
+    width: 700px;
 }

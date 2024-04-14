@@ -1,10 +1,51 @@
 <body>
     <h1>SK Třebechovice pod Orebem, oddíl kanoistiky</h1>
     <div class="contentContainer">
+        <div class="content">
+            <!-- TODO: doplnit, klidně i mapa z mapy cz -->
+            <h2>Jsme malý pohodový oddíl s vášní pro slalomovou kanoistiku</h2>
+            <h2>Zde nás najdete:</h2>
+            <div id="map"></div>
+            <script>
+                const map = new maplibregl.Map({
+                    container: 'map',
+                    center: [15.9766697, 50.1980636],
+                    zoom: 15,
+                    style: {
+                        version: 8,
+                        sources: {
+                            'basic-tiles': {
+                                type: 'raster',
+                                url: `https://api.mapy.cz/v1/maptiles/basic/tiles.json?apikey={{apiKey}}`,
+                                tileSize: 256,
+                            },
+                        },
+                        layers: [{
+                            id: 'tiles',
+                            type: 'raster',
+                            source: 'basic-tiles',
+                        }],
+                    },
+                });
+                const marker = new maplibregl.Marker({color: "#fc0000"})
+                        .setLngLat([15.9766697, 50.1980636])
+                        .addTo(map);
+                class LogoControl {
+                    onAdd(map) {
+                        this._map = map;
+                        this._container = document.createElement('div');
+                        this._container.className = 'maplibregl-ctrl';
+                        this._container.innerHTML = '<a href="http://mapy.cz/" target="_blank"><img  width="100px" src="https://api.mapy.cz/img/api/logo.svg" ></a>';
 
-
-
-
-
+                        return this._container;
+                    }
+                    onRemove() {
+                        this._container.parentNode.removeChild(this._container);
+                        this._map = undefined;
+                    }
+                }
+                map.addControl(new LogoControl(), 'bottom-left');
+            </script>
+        </div>
     </div>
 </body>
