@@ -1,2 +1,6 @@
 ### files with sensitive data
 LocalConfig.class.php
+
+### excluded directories
+vendor/
+maplibre-gl-js-main/
